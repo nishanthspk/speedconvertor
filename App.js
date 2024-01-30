@@ -3,8 +3,8 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Select from './screens/select';
-import miletokm from './screens/miletokm';
-import kmtomile from './screens/kmtomile';
+import result from './screens/result';
+
 import { AppRegistry } from 'react-native';
 
 const Stack = createStackNavigator();
@@ -18,8 +18,8 @@ const App = () => {
         <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Speed calculator" component={Select} />
 
-        <Stack.Screen name="BMICalculator" component={kmtomile} />
-        <Stack.Screen name="Result" component={miletokm} />
+         <Stack.Screen name="Final" component={result} />
+        {/* <Stack.Screen name="Result" component={miletokm} /> */}
       </Stack.Navigator>
 
       </NavigationContainer>
