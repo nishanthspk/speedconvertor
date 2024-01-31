@@ -54,7 +54,7 @@ const Selectw = () => {
   
 
     return ( 
-        <StyledView className='p-2 bg-orange-100 h-screen flex justify-center pb-32'>
+        <StyledView className='p-2 bg-green-50 h-screen flex justify-center pb-32'>
         <StyledText className='text-center text-2xl pb-16'>Choose your option</StyledText>
         <StyledText className=' '>Convert from: </StyledText>
         <StyledView className=" flex flex-row  p-2" >
@@ -90,7 +90,7 @@ const Selectw = () => {
 
         
         <TouchableOpacity
-        style={{ backgroundColor: 'orange', borderRadius: 10, padding: 8, alignItems: 'center', marginHorizontal: 96, marginTop: 20 }} onPress={navigateToResultScreen}>
+        style={{ backgroundColor: 'rgb(96, 187, 34)', borderWidth: 1, borderColor: '#ffffff', elevation:10, borderRadius: 10, padding: 8, alignItems: 'center', marginHorizontal: 96, marginTop: 20 }} onPress={navigateToResultScreen}>
         <StyledText style={{ color: 'white', fontSize: 18 }}>Next</StyledText>
         </TouchableOpacity>            
         

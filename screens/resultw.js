@@ -9,10 +9,10 @@ const Finalw = ({ route }) => {
     const StyledText = styled(Text);
     
     return ( 
-        <StyledView className=' p-2 bg-orange-100 h-screen flex justify-center items-center pb-32 shadow-lg'  >
-        <StyledView className=' bg-orange-300 border-2  rounded-lg p-8 items-center' style={{elevation: 10}}>
+        <StyledView className=' p-2 bg-green-50 h-screen flex justify-center items-center pb-32 shadow-lg'  >
+        <StyledView className=' bg-green-400 border-2  rounded-lg p-8 items-center' style={{elevation: 10}}>
         <StyledText className=' font-medium text-3xl'>The result is :</StyledText>
-        <StyledText className=' font- font-semibold text-2xl pt-6'>{resultw}</StyledText>
+        <StyledText className=' font-semibold text-2xl pt-6'>{resultw}</StyledText>
         </StyledView>
        
     </StyledView>
